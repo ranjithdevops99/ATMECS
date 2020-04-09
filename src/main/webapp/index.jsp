@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Hello!DevOps-POC</h2>
+<h2>Hello! World Docker container</h2>
 </body>
 </html>
