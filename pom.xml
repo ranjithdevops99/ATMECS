@@ -63,11 +63,5 @@
         </plugin>
       </plugins>
     </pluginManagement
-      <distributionManagement>
-  <snapshotRepository>
-    <id>nexusdeploy</id>
-    <url>http://10.10.10.236:8081/nexus/content/repositories/nexusdeploy</url>
-  </snapshotRepository>
-</distributionManagement>
-  </build>
-</project>
+      </build>
+        </project>
