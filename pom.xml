@@ -26,7 +26,7 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-  </dependencies>
+   </dependencies>
 
   <build>
     <finalName>devopsatmecs</finalName>
@@ -62,6 +62,12 @@
           <version>2.8.2</version>
         </plugin>
       </plugins>
-    </pluginManagement>
+    </pluginManagement
+      <distributionManagement>
+  <snapshotRepository>
+    <id>nexusdeploy</id>
+    <url>http://10.10.10.236:8081/nexus/content/repositories/nexusdeploy</url>
+  </snapshotRepository>
+</distributionManagement>
   </build>
 </project>
