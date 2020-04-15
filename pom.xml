@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.atmecs</groupId>
+  <groupId>com.atmecs</groupId> 
   <artifactId>devopsatmecs</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
@@ -28,9 +28,9 @@
     </dependency>
    </dependencies>
 
-  <build>
+   <build>
     <finalName>devopsatmecs</finalName>
-    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
